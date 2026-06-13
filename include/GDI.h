@@ -19,3 +19,12 @@ void GDI_PresentBuffer(HDC hdcDest);
 void cleanup();
 
 void gdihsv(HDC hdc, float t);
+void gdi_glitch(HDC hdc, float t);
+void gdi_pixelate(HDC hdc, float t);
+void gdi_invert_pulse(HDC hdc, float t);
+void gdi_scanlines(HDC hdc, float t);
+void gdi_radial_zoom(HDC hdc, float t);
+void gdi_abstract_rectangles(HDC hdc, float t);
+void gdi_invert(HDC hdc, float t);
+void gdi_cursorsymbol(HDC hdc, float t);
+void gdi_screenmelt(HDC hdc, float t);
