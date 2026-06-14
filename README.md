@@ -5,7 +5,7 @@
 
   [![C++20](https://img.shields.io/badge/language-C%2B%2B20-blue.svg)](https://en.cppreference.com/w/cpp/20)
   [![Stars](https://img.shields.io/github/stars/Seal-Softworks/hgvcuj?style=social)](https://github.com/Seal-Softworks/hgvcuj/stargazers)
-  [![License](https://img.shields.io/github/license/Seal-Softworks/hgvcuj)](https://github.com/Seal-Softworks/hgvcuj/blob/main/LICENSE)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Seal-Softworks/hgvcuj/blob/main/LICENSE)
 </div>
 
 hgvcuj.exe is a **DESTRUCTIVE** trojan for Windows, written in C++.
