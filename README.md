@@ -10,6 +10,8 @@
 
 hgvcuj.exe is a **DESTRUCTIVE** trojan for Windows, written in C++.
 
+Showcase by [InDispo](https://github.com/InDisp0) - https://www.youtube.com/watch?v=pFMkX7uazn0
+
 > NOTE: The developers of hgvcuj.exe are not responsible for any damage caused to your device. Use at your own risk.
 
 ***DO NOT*** run hgvcuj.exe on actual hardware. This trojan overwrites the Windows logon. Test only in a Virtual Machine or on old hardware that you do not care about.
